@@ -1,14 +1,14 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './navbar';
 import AddBook from './addBooks';
 import Categories from './Categories';
-import BookList from './BookList';
+import BookList from './bookList';
 
 const Bookstore = () => (
   <Router>
     <Navbar />
-    <Routes>
+    <Switch>
       <Route exact path="/">
         <BookList />
         <AddBook />
@@ -16,7 +16,7 @@ const Bookstore = () => (
       <Route path="/categories">
         <Categories />
       </Route>
-    </Routes>
+    </Switch>
   </Router>
 );
 
