@@ -2,7 +2,7 @@ const Options = () => (
   <div className="book-options">
     <a href="/#">Comments</a>
     {' | '}
-    <a href="/#">Remove</a>
+    <button type="submit"> Remove </button>
     {' | '}
     <a href="/#">Edit</a>
   </div>
