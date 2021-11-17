@@ -1,34 +1,25 @@
 import React from 'react';
-import data from './bookData';
-import Options from './option';
+import { useSelector } from 'react-redux';
+import Book from '../redux/books/books';
 
-const BookList = () => (
+const BookList = () => {
+  const bookStore = useSelector((store) => store.booksReducer);
+  const oneBook = bookStore.map((book) => (
+    <Book
+      className="Book"
+      key={book.id}
+      id={book.id}
+      author={book.author}
+      title={book.title}
+      category={book.category}
+    />
+  ));
 
-  <ul className="bookList">
-    {data.map((book) => (
-      <li
-        className="Book"
-        key={book.id}
-      >
-        <div>
-          <div>{book.category}</div>
-          <div>{book.title}</div>
-          <div>{book.author}</div>
-          <Options />
-        </div>
-        <div>
-          {book.percentage}
-          <p>Completed</p>
-        </div>
-        <div>
-          <p>CURRENT CHAPTER</p>
-          <div>{book.chapter}</div>
-          <button type="button">UPDATE PROGRESS</button>
-        </div>
-      </li>
-    ))}
-  </ul>
-
-);
+  return (
+    <div className="bookList">
+      {oneBook}
+    </div>
+  );
+};
 
 export default BookList;
