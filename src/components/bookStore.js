@@ -5,9 +5,10 @@ import Navbar from './navbar';
 import AddBook from './addBooks';
 import Categories from './Categories';
 import BookList from './bookList';
+import store from '../redux/configureStore';
 
 const Bookstore = () => (
-  <Provider>
+  <Provider store={store}>
     <Router>
       <Navbar />
       <Routes>
