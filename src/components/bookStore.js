@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import Navbar from './navbar';
 import AddBook from './addBooks';
@@ -11,11 +11,13 @@ const Bookstore = () => (
   <Provider store={store}>
     <Router>
       <Navbar />
-      <Routes>
-        <Route exact path="/" element={<BookList />} />
-        <Route exact path="/" element={<AddBook />} />
-        <Route path="/categories" element={<Categories />} />
-      </Routes>
+      <Switch>
+        <Route exact path="/">
+          <BookList />
+          <AddBook />
+        </Route>
+        <Route path="/categories" component={Categories} />
+      </Switch>
     </Router>
   </Provider>
 );

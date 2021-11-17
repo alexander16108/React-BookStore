@@ -67,8 +67,8 @@ const AddBook = () => {
         >
           <option defaultValue="">Category</option>
           <option value="action">Action</option>
-          <option value="science-fiction">Science Fiction</option>
-          <option value="economy">Economy</option>
+          <option value="science-fiction">Sci-Fi</option>
+          <option value="economy">Fantasy</option>
         </select>
         <br />
         <button className="submit" type="submit">ADD BOOK</button>
