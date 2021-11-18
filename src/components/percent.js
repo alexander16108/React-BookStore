@@ -1,6 +1,6 @@
 const Percentage = () => (
   <div>
-    <p className="percentage">0%</p>
+    <p className="percentage">8%</p>
     <p>Completed</p>
   </div>
 );

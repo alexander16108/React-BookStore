@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 body {
-  background-color: #fafafa;
+  background-color: rgba(228, 228, 228, 0.932);
   min-height: 100vh;
   box-sizing: border-box;
   margin: 0;
@@ -91,7 +91,7 @@ body {
 .bookCategory {
   opacity: 0.5;
   font-family: 'Montserrat', sans-serif;
-  font-size: 0.875rem;
+  font-size: 0.695rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -102,13 +102,13 @@ body {
 
 .bookTitle {
   font-family: 'RobotoSlab', sans-serif;
-  font-size: 1.375rem;
+  font-size: 1.775rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
   letter-spacing: -0.2px;
-  color: #121212;
+  color: #000000;
 }
 
 .Navbar,
@@ -227,7 +227,7 @@ hr {
   line-height: normal;
   letter-spacing: normal;
   color: white;
-  background-color: #66aff0d0;
+  background-color: #3a9aee;
 }
 
 .oval {
