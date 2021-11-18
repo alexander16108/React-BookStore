@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import Book from './Book';
-import { fetchBookAPI } from '../API/Api';
+import { fetchBookAPI } from '../Api/Api';
 import { getBook } from '../redux/books/books';
 
 const BookList = () => {
