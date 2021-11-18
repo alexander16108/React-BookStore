@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 
 body {
   background-color: rgba(228, 228, 228, 0.932);
@@ -10,7 +10,7 @@ body {
 }
 
 .Title {
-  font-family: 'Montserrat-Bold', sans-serif;
+  font-family: "Montserrat-Bold", sans-serif;
   font-weight: bold;
   font-size: 1.875rem;
 }
@@ -33,7 +33,7 @@ body {
 .book,
 .categories,
 .book-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: normal;
   font-size: 0.813rem;
   opacity: 0.5;
@@ -90,7 +90,7 @@ body {
 
 .bookCategory {
   opacity: 0.5;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 0.695rem;
   font-weight: bold;
   font-stretch: normal;
@@ -101,7 +101,7 @@ body {
 }
 
 .bookTitle {
-  font-family: 'RobotoSlab', sans-serif;
+  font-family: "RobotoSlab", sans-serif;
   font-size: 1.775rem;
   font-weight: bold;
   font-stretch: normal;
@@ -123,7 +123,7 @@ hr {
 }
 
 .Form h3 {
-  font-family: 'Montserrat-Bold', sans-serif;
+  font-family: "Montserrat-Bold", sans-serif;
   font-weight: bold;
   font-size: 1.25rem;
   color: #888;
@@ -149,7 +149,7 @@ hr {
 }
 
 .book-options {
-  font-family: 'RobotoSlab', sans-serif;
+  font-family: "RobotoSlab", sans-serif;
   font-size: 0.875rem;
   font-weight: 300;
   font-stretch: normal;
@@ -165,7 +165,7 @@ hr {
 
 .currentChapter {
   opacity: 0.5;
-  font-family: 'RobotoSlab', sans-serif;
+  font-family: "RobotoSlab", sans-serif;
   font-size: 0.813rem;
   font-weight: 300;
   font-stretch: normal;
@@ -176,7 +176,7 @@ hr {
 }
 
 .chapter {
-  font-family: 'RobotoSlab', sans-serif;
+  font-family: "RobotoSlab", sans-serif;
   font-size: 1rem;
   font-weight: 300;
   font-stretch: normal;
@@ -187,7 +187,7 @@ hr {
 }
 
 .percentage {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 2rem;
   font-weight: normal;
   font-stretch: normal;
@@ -200,7 +200,7 @@ hr {
 
 .completed {
   opacity: 0.5;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 0.875rem;
   font-weight: normal;
   font-stretch: normal;
@@ -219,7 +219,7 @@ hr {
 .progress {
   padding: 10px;
   border: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 0.875rem;
   font-weight: normal;
   font-stretch: normal;
