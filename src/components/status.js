@@ -4,7 +4,7 @@ const Progress = () => (
   <div>
     <p>CURRENT CHAPTER</p>
     <p>Introduction</p>
-    <button type="button">UPDATE PROGRESS</button>
+    <button type="button" className="progress">UPDATE PROGRESS</button>
   </div>
 );
 
