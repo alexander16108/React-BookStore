@@ -186,6 +186,36 @@ hr {
   color: #121212;
 }
 
+.percentage {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+  margin-bottom: 0;
+}
+
+.completed {
+  opacity: 0.5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+  margin-top: 0;
+}
+
+.percentageContainer {
+  display: flex;
+  align-items: center;
+}
+
 .oval {
   width: 4.25rem;
   height: 4.25rem;
