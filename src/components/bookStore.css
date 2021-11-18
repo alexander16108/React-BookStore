@@ -21,6 +21,10 @@ body {
   color: #0290ff;
 }
 
+h1 {
+  color: #4386bf;
+}
+
 .submit,
 .update {
   background-color: #0290ff;
@@ -88,27 +92,30 @@ body {
   justify-content: space-between;
 }
 
+.currentChapter,
 .bookCategory {
-  opacity: 0.5;
+  opacity: 0.8;
   font-family: "Montserrat", sans-serif;
-  font-size: 0.695rem;
+  font-size: 0.669rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
   color: #121212;
+  text-transform: capitalize;
 }
 
 .bookTitle {
   font-family: "RobotoSlab", sans-serif;
-  font-size: 1.775rem;
+  font-size: 1.295rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
   letter-spacing: -0.2px;
   color: #000;
+  text-transform: capitalize;
 }
 
 .Navbar,
@@ -127,6 +134,16 @@ hr {
   font-weight: bold;
   font-size: 1.25rem;
   color: #888;
+}
+
+.link-list {
+  color: #888;
+  text-transform: uppercase;
+  padding-left: 15px;
+}
+
+.link-list:active {
+  color: red;
 }
 
 .Book div {
@@ -160,7 +177,8 @@ hr {
 }
 
 .book-options a {
-  color: #4386bf;
+  color: #4385bfd5;
+  padding-right: 8px;
 }
 
 .currentChapter {
@@ -217,7 +235,7 @@ hr {
 }
 
 .progress {
-  padding: 10px;
+  padding: 7px;
   border: none;
   font-family: "Montserrat", sans-serif;
   font-size: 0.875rem;
@@ -228,6 +246,7 @@ hr {
   letter-spacing: normal;
   color: white;
   background-color: #3a9aee;
+  border-radius: 6px;
 }
 
 .oval {

@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const BookData = ({ category, title }) => (
   <div>
     <p className="bookCategory">{category}</p>
-    <p>{title}</p>
+    <p className="bookTitle">{title}</p>
   </div>
 );
 
