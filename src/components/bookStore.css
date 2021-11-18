@@ -216,6 +216,20 @@ hr {
   align-items: center;
 }
 
+.progress {
+  padding: 10px;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: white;
+  background-color: #66aff0d0;
+}
+
 .oval {
   width: 4.25rem;
   height: 4.25rem;
