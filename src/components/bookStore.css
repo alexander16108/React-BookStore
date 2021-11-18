@@ -1,10 +1,64 @@
-* {
-  list-style: none;
-  padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+body {
+  background-color: rgba(228, 228, 228, 0.932);
+  min-height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
 }
 
-html {
-  padding: 0 20px;
+.Title {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: bold;
+  font-size: 1.875rem;
+}
+
+.Title,
+.user,
+.oval {
+  color: #0290ff;
+}
+
+h1 {
+  color: #4386bf;
+}
+
+.submit,
+.update {
+  background-color: #0290ff;
+  color: #fff;
+  border: none;
+  padding: 0.801rem 1.188rem 0.886rem 1.375rem;
+  border-radius: 3px;
+}
+
+.book,
+.categories,
+.book-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-size: 0.813rem;
+  opacity: 0.5;
+  letter-spacing: 1.9px;
+  color: #121212;
+}
+
+.active-link {
+  color: #000;
+  text-decoration: underline;
+}
+
+.Navbar {
+  background-color: #fff;
+  justify-content: space-between;
+}
+
+* {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
 }
 
 .Navbar,
@@ -16,10 +70,6 @@ html {
 .Navbar,
 .Nav1 {
   align-items: center;
-}
-
-.Navbar {
-  justify-content: space-between;
 }
 
 .Links li {
@@ -34,24 +84,173 @@ html {
 .Book {
   display: flex;
   flex-direction: row;
-  border: 1px solid #d3d3d3;
-  background-color: #e9e7e7;
+  border-radius: 4px;
+  border: solid 1px var(--white);
+  background-color: #fff;
   margin-bottom: 10px;
   padding: 0 20px 10px 20px;
   justify-content: space-between;
-  align-items: baseline;
+}
+
+.currentChapter,
+.bookCategory {
+  opacity: 0.8;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.669rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+  text-transform: capitalize;
+}
+
+.bookTitle {
+  font-family: "RobotoSlab", sans-serif;
+  font-size: 1.295rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  color: #000;
+  text-transform: capitalize;
+}
+
+.Navbar,
+.bookList,
+.Form {
+  padding: 1rem 6.188rem 1rem 6.25rem;
+}
+
+hr {
+  margin-left: 6.188rem;
+  margin-right: 6.25rem;
+}
+
+.Form h3 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #888;
+}
+
+.link-list {
+  color: #888;
+  text-transform: uppercase;
+  padding-left: 15px;
+}
+
+.link-list:active {
+  color: red;
 }
 
 .Book div {
   width: 80%;
+  align-self: center;
 }
 
-.book-title,
-.author-name {
-  width: 30%;
+.book-title {
+  width: 55%;
+}
+
+.categories,
+.book-title {
+  padding-left: 10px;
 }
 
 .categories,
 .submit {
   width: 20%;
+}
+
+.book-options {
+  font-family: "RobotoSlab", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--white);
+}
+
+.book-options a {
+  color: #4385bfd5;
+  padding-right: 8px;
+}
+
+.currentChapter {
+  opacity: 0.5;
+  font-family: "RobotoSlab", sans-serif;
+  font-size: 0.813rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.chapter {
+  font-family: "RobotoSlab", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: #121212;
+}
+
+.percentage {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+  margin-bottom: 0;
+}
+
+.completed {
+  opacity: 0.5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+  margin-top: 0;
+}
+
+.percentageContainer {
+  display: flex;
+  align-items: center;
+}
+
+.progress {
+  padding: 7px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: white;
+  background-color: #3a9aee;
+  border-radius: 6px;
+}
+
+.oval {
+  width: 4.25rem;
+  height: 4.25rem;
+  padding-right: 30px;
 }
